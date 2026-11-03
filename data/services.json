@@ -1,0 +1,379 @@
+{
+  "localeDefaults": {
+    "fr": {
+      "sectionBadge": "Nos Solutions & Expertises",
+      "sectionTitle": "Détail de nos Services & Produits",
+      "sectionDescription": "Découvrez en détail l'ensemble des solutions technologiques et services de Safaridew, conçus pour propulser les organisations avec une vision panafricaine et internationale.",
+      "allServices": "Tous les services",
+      "keyFeatures": "Points clés :",
+      "discover": "En savoir plus",
+      "contactUs": "Discuter avec nous",
+      "searchPlaceholder": "Rechercher un service...",
+      "backToTop": "Retour en haut"
+    },
+    "en": {
+      "sectionBadge": "Our Solutions & Expertise",
+      "sectionTitle": "Detailed Services & Products",
+      "sectionDescription": "Explore our comprehensive technological solutions and services designed to empower organizations with a pan-African and global vision.",
+      "allServices": "All Services",
+      "keyFeatures": "Key highlights:",
+      "discover": "Learn more",
+      "contactUs": "Talk with us",
+      "searchPlaceholder": "Search a service...",
+      "backToTop": "Back to top"
+    }
+  },
+  "services": [
+    {
+      "id": "strategie-digitale",
+      "thumbnail": "https://cdn.dribbble.com/userupload/49063797/file/f16b8c4d77a7b86feb0ef984f782ae5c.png?resize=1504x1128&vertical=center",
+      "externalLink": "https://safaridew.com",
+      "fr": {
+        "title": "Stratégie Digitale",
+        "subtitle": "Transformation & Conseil technologique",
+        "description": "Définir les meilleurs axes pour la transformation digitale de votre organisation. Nous vous accompagnons dans la conception, l'alignement technologique et l'optimisation continue de vos processus métiers.",
+        "tag": "Conseil & Stratégie",
+        "features": [
+          "Audit et diagnostic de maturité digitale",
+          "Feuille de route stratégique personnalisée",
+          "Alignement technologique & conduite du changement"
+        ]
+      },
+      "en": {
+        "title": "Digital Strategy",
+        "subtitle": "Technology Consulting & Transformation",
+        "description": "Define optimal paths for your organization's digital transformation. We guide you in technological alignment, system design, and ongoing operational optimization.",
+        "tag": "Consulting & Strategy",
+        "features": [
+          "Digital maturity audit and diagnostics",
+          "Tailored strategic technology roadmap",
+          "System alignment & change management"
+        ]
+      }
+    },
+    {
+      "id": "identite-de-marque-et-rebranding",
+      "thumbnail": "https://cdn.dribbble.com/userupload/47564267/file/72708bed691e3d8b1459bde81b63c9cd.webp?resize=1504x1128&vertical=center",
+      "externalLink": "https://safaridew.com",
+      "fr": {
+        "title": "Identité de marque et rebranding",
+        "subtitle": "Identité visuelle & Design de marque",
+        "description": "Création d'identités visuelles mémorables et cohérentes. De la charte graphique complète aux design systems digitaux, nous sculptons l'ADN de votre marque pour captiver votre audience.",
+        "tag": "Design & Image",
+        "features": [
+          "Création de logos et chartes graphiques complètes",
+          "Design Systems modulaires et scalables",
+          "Stratégie de communication visuelle"
+        ]
+      },
+      "en": {
+        "title": "Brand Identity & Rebranding",
+        "subtitle": "Visual Identity & Brand Design",
+        "description": "Crafting memorable and cohesive visual identities. From complete brand guidelines to digital design systems, we shape your brand's DNA to captivate your audience.",
+        "tag": "Design & Branding",
+        "features": [
+          "Logo design and comprehensive brand books",
+          "Scalable and modular Design Systems",
+          "Visual communication strategy"
+        ]
+      }
+    },
+    {
+      "id": "applications-mobiles",
+      "thumbnail": "https://cdn.dribbble.com/userupload/47232660/file/db6bd6a431ebd8a388bec1b9d2e52dec.png?resize=1504x1128&vertical=center",
+      "externalLink": "https://safaridew.com",
+      "fr": {
+        "title": "Applications Mobiles",
+        "subtitle": "Développement iOS, Android & Cross-Platform",
+        "description": "Conception et développement d'applications mobiles intuitives, rapides et sécurisées. Adaptées aux réalités des réseaux locaux avec synchronisation hors-ligne et paiements mobiles intégrés.",
+        "tag": "Développement Mobile",
+        "features": [
+          "Applications natives & React Native / Flutter",
+          "Mode hors-ligne et synchronisation résiliente",
+          "Intégration Mobile Money & passerelles locales"
+        ]
+      },
+      "en": {
+        "title": "Mobile Applications",
+        "subtitle": "iOS, Android & Cross-Platform Development",
+        "description": "Design and engineering of intuitive, high-speed, and secure mobile apps. Optimized for local network realities with resilient offline sync and mobile money payments.",
+        "tag": "Mobile Development",
+        "features": [
+          "Native apps & React Native / Flutter",
+          "Offline-first mode and resilient sync",
+          "Mobile Money & local payment gateways"
+        ]
+      }
+    },
+    {
+      "id": "publicite-ciblee",
+      "thumbnail": "https://cdn.dribbble.com/userupload/49008138/file/4144fdd66fde91888c5a1970abd8dcfa.png?resize=1024x1536&vertical=center",
+      "externalLink": "https://safaridew.com",
+      "fr": {
+        "title": "Publicité ciblée",
+        "subtitle": "Marketing d'acquisition & Campagnes de performance",
+        "description": "Maximisez le retour sur investissement de vos budgets marketing grâce à des campagnes publicitaires ciblées, alimentées par la data et optimisées en continu sur tous les canaux clés.",
+        "tag": "Growth & Marketing",
+        "features": [
+          "Stratégies d'acquisition multi-canaux (Google, Meta, LinkedIn)",
+          "Analyse prédictive et ciblage d'audience granulaire",
+          "Optimisation du taux de conversion (CRO) et A/B testing"
+        ]
+      },
+      "en": {
+        "title": "Targeted Advertising",
+        "subtitle": "Performance Marketing & Customer Acquisition",
+        "description": "Maximize your marketing ROI with data-driven targeted advertising campaigns continuously optimized across all essential digital channels.",
+        "tag": "Growth & Marketing",
+        "features": [
+          "Multi-channel acquisition strategies (Google, Meta, LinkedIn)",
+          "Predictive analytics and granular audience segmentation",
+          "Conversion rate optimization (CRO) and continuous A/B testing"
+        ]
+      }
+    },
+    {
+      "id": "modernisations-dinfrastructure",
+      "thumbnail": "https://www.aceternity.com/images/products/thumbnails/new/editrix.png",
+      "externalLink": "https://safaridew.com",
+      "fr": {
+        "title": "Modernisations d'infrastructure",
+        "subtitle": "Migration Cloud, DevOps & Résilience technique",
+        "description": "Faites évoluer votre socle technique vers des architectures cloud modernes, sécurisées et hautement disponibles, tout en optimisant vos coûts d'hébergement.",
+        "tag": "Cloud & Infrastructure",
+        "features": [
+          "Migration vers le cloud (AWS, GCP, Azure)",
+          "Pipelines CI/CD et automatisation DevOps",
+          "Conteneurisation (Docker, Kubernetes) et scalabilité"
+        ]
+      },
+      "en": {
+        "title": "Infrastructure Modernization",
+        "subtitle": "Cloud Migration, DevOps & Resilience",
+        "description": "Upgrade your IT backbone to modern, highly secure, and cost-efficient cloud architectures designed for high availability and zero-downtime scaling.",
+        "tag": "Cloud & Infrastructure",
+        "features": [
+          "Cloud migration (AWS, GCP, Azure)",
+          "CI/CD pipelines & automated DevOps workflows",
+          "Containerization (Docker, Kubernetes) and auto-scaling"
+        ]
+      }
+    },
+    {
+      "id": "conseils-de-pros",
+      "thumbnail": "https://www.aceternity.com/images/products/thumbnails/new/pixelperfect.png",
+      "externalLink": "https://safaridew.com",
+      "fr": {
+        "title": "Conseils de pros",
+        "subtitle": "Expertise technique, Mentoring & Direction Technique",
+        "description": "Bénéficiez du regard et des conseils de nos experts seniors pour guider vos choix technologiques, encadrer vos développeurs et réussir vos déploiements critiques.",
+        "tag": "Expertise & Conseil",
+        "features": [
+          "Direction technique à temps partagé (Fractional CTO)",
+          "Revue de code, audit d'architecture et bonnes pratiques",
+          "Montée en compétences de vos équipes techniques internes"
+        ]
+      },
+      "en": {
+        "title": "Expert Tech Consulting",
+        "subtitle": "Fractional CTO, Advisory & Team Mentorship",
+        "description": "Leverage our senior engineers' expertise to make confident architectural decisions, mentor your development teams, and ensure mission-critical launch success.",
+        "tag": "Expertise & Advisory",
+        "features": [
+          "Fractional CTO and tech leadership support",
+          "Code reviews, architecture audits, and best practices",
+          "In-house tech team upskilling and mentoring"
+        ]
+      }
+    },
+    {
+      "id": "systeme-de-securite",
+      "thumbnail": "https://cdn.dribbble.com/userupload/6072905/file/original-12a01815f282318816a9a22a39ae4b90.png?resize=1504x846&vertical=center",
+      "externalLink": "https://safaridew.com",
+      "fr": {
+        "title": "Système de securité",
+        "subtitle": "Cybersécurité & Protection des données sensibles",
+        "description": "Sécurisation intégrale de vos systèmes d'information, audits de vulnérabilités, protection contre les intrusions et conformité réglementaire de vos données d'entreprise.",
+        "tag": "Cybersécurité",
+        "features": [
+          "Tests d'intrusion (Pen-test) et audits de vulnérabilités",
+          "Chiffrement bout en bout et sauvegardes immuables",
+          "Surveillance continue 24/7 et plans de reprise d'activité (PRA)"
+        ]
+      },
+      "en": {
+        "title": "Security Systems",
+        "subtitle": "Cybersecurity & Critical Data Defense",
+        "description": "Comprehensive security for your corporate systems, vulnerability audits, intrusion prevention, and regulatory compliance for business-critical data.",
+        "tag": "Cybersecurity",
+        "features": [
+          "Penetration testing & vulnerability assessments",
+          "End-to-end encryption & immutable cloud backups",
+          "24/7 continuous threat monitoring & disaster recovery"
+        ]
+      }
+    },
+    {
+      "id": "ia-automatisation",
+      "thumbnail": "https://cdn.dribbble.com/userupload/46769455/file/f7de2910e6f1c20f059c60975c821ecc.jpg?resize=1504x1128&vertical=center",
+      "externalLink": "https://safaridew.com",
+      "fr": {
+        "title": "IA & Automatisation",
+        "subtitle": "RPA, Modèles IA sur mesure & Workflows autonomes",
+        "description": "Éliminez les tâches manuelles répétitives en connectant vos applications d'affaires grâce à l'intelligence artificielle et l'automatisation robotisée des processus.",
+        "tag": "Automatisation & IA",
+        "features": [
+          "Automatisation des flux opérationnels sans friction",
+          "Traitement automatique de documents et extraction de données",
+          "Assistants intelligents et agents d'automatisation dédiés"
+        ]
+      },
+      "en": {
+        "title": "AI & Automation",
+        "subtitle": "RPA, Custom AI Models & Autonomous Workflows",
+        "description": "Eliminate repetitive manual tasks and accelerate operations by seamlessly interconnecting your enterprise software with AI-powered workflow automation.",
+        "tag": "Automation & AI",
+        "features": [
+          "Friction-free operational workflow pipelines",
+          "Intelligent document processing and automated extraction",
+          "Domain-specialized AI assistants and worker agents"
+        ]
+      }
+    },
+    {
+      "id": "vision-panafricaine",
+      "thumbnail": "https://cdn.dribbble.com/userupload/10753139/file/original-cf572c9e1dff8a69fa9128b2030a99e7.jpg?resize=1504x846&vertical=center",
+      "externalLink": "https://safaridew.com",
+      "fr": {
+        "title": "Vision Panafricaine",
+        "subtitle": "Technologies adaptées aux défis et opportunités africains",
+        "description": "Des solutions conçues pour fonctionner de manière optimale sur le continent : résilience aux coupures réseau, mode hors-ligne natif et inclusion financière par mobile money.",
+        "tag": "Impact & Innovation",
+        "features": [
+          "Conception pensée pour les connexions à débit variable",
+          "Intégration directe des canaux de paiement locaux",
+          "Promotion des talents et écosystèmes technologiques locaux"
+        ]
+      },
+      "en": {
+        "title": "Pan-African Vision",
+        "subtitle": "Technology tailored for African Challenges & Opportunities",
+        "description": "Solutions engineered specifically for the continent: resilient in low-connectivity zones, offline-first capabilities, and financial inclusion via mobile money.",
+        "tag": "Impact & Innovation",
+        "features": [
+          "Optimized for variable bandwidth networks",
+          "Native integration with local payment rails",
+          "Empowering local tech ecosystems and talents"
+        ]
+      }
+    },
+    {
+      "id": "partenariats-et-integrations",
+      "thumbnail": "https://www.aceternity.com/images/products/thumbnails/new/smartbridge.png",
+      "externalLink": "https://safaridew.com",
+      "fr": {
+        "title": "Partenariats et intégrations",
+        "subtitle": "Interconnexion de systèmes & Écosystèmes partenaires",
+        "description": "Nous bâtissons des passerelles technologiques entre votre entreprise et vos partenaires stratégiques : institutions financières, télécoms, logistique et services gouvernementaux.",
+        "tag": "Intégrations & APIs",
+        "features": [
+          "Passerelles sécurisées avec les banques et opérateurs télécom",
+          "APIs ouvertes et webhooks pour vos partenaires",
+          "Interopérabilité multi-plateformes et réconciliation automatisée"
+        ]
+      },
+      "en": {
+        "title": "Partnerships & Integrations",
+        "subtitle": "System Interoperability & Partner Ecosystems",
+        "description": "We engineer robust bridges connecting your business with strategic partners: financial institutions, telecom operators, logistics, and public services.",
+        "tag": "Integrations & APIs",
+        "features": [
+          "Secure gateways with banks and telecom carriers",
+          "Open APIs and webhooks for strategic partners",
+          "Cross-platform interoperability and automated settlement"
+        ]
+      }
+    },
+    {
+      "id": "studio-creatif",
+      "thumbnail": "https://www.aceternity.com/images/products/thumbnails/new/renderwork.png",
+      "externalLink": "https://safaridew.com",
+      "fr": {
+        "title": "Studio créatif",
+        "subtitle": "3D, Animation vidéo, Motion Design & Médias interactifs",
+        "description": "Donnez vie à vos idées avec des créations visuelles percutantes : animations 3D, vidéos de présentation de produits, motion graphics et storytelling interactif.",
+        "tag": "Studio & Création",
+        "features": [
+          "Modélisation et rendu 3D haute définition",
+          "Animations publicitaires et motion design pour les réseaux",
+          "Production de contenus vidéo immersifs"
+        ]
+      },
+      "en": {
+        "title": "Creative Studio",
+        "subtitle": "3D, Video Animation, Motion Design & Interactive Media",
+        "description": "Bring your ideas to life with high-impact visual media: 3D animations, product launch videos, motion graphics, and interactive digital storytelling.",
+        "tag": "Studio & Creative",
+        "features": [
+          "High-definition 3D modeling and rendering",
+          "Engaging motion graphics and promotional video",
+          "Immersive interactive multimedia production"
+        ]
+      }
+    },
+    {
+      "id": "erp-et-systeme-de-gestion",
+      "thumbnail": "https://www.aceternity.com/images/products/thumbnails/new/cremedigital.png",
+      "externalLink": "https://safaridew.com",
+      "fr": {
+        "title": "ERP et système de gestion",
+        "subtitle": "Gestion commerciale, Stocks, Comptabilité & RH",
+        "description": "Centralisez toute l'activité de votre entreprise au sein d'un ERP moderne sur mesure ou préconfiguré : gestion des stocks, facturation, suivi client et reporting financier en temps réel.",
+        "tag": "Gestion d'Entreprise",
+        "features": [
+          "Suivi des stocks multi-dépôts et approvisionnements",
+          "Facturation, devis et gestion comptable automatisée",
+          "Tableaux de bord d'aide à la décision en direct"
+        ]
+      },
+      "en": {
+        "title": "ERP & Management Systems",
+        "subtitle": "Operations, Inventory, Billing & HR Management",
+        "description": "Centralize all company operations in a modern tailored or modular ERP: inventory control, billing, customer management, and real-time financial reporting.",
+        "tag": "Business Management",
+        "features": [
+          "Multi-warehouse inventory and procurement tracking",
+          "Automated invoicing, quotes, and accounting records",
+          "Executive decision-making dashboards in real time"
+        ]
+      }
+    },
+    {
+      "id": "mobilite-inteligente",
+      "thumbnail": "https://cdn.dribbble.com/userupload/10753139/file/original-cf572c9e1dff8a69fa9128b2030a99e7.jpg?resize=1504x846&vertical=center",
+      "externalLink": "https://safaridew.com",
+      "fr": {
+        "title": "Mobilité intéligente",
+        "subtitle": "Logistique urbaine, Géolocalisation & Flottes connectées",
+        "description": "Optimisez les déplacements de personnes et de marchandises : applications de covoiturage, gestion télématique de flottes de véhicules et suivi des livraisons en temps réel.",
+        "tag": "Mobilité & Logistique",
+        "features": [
+          "Suivi GPS et télématique en temps réel",
+          "Algorithmes d'optimisation d'itinéraires et de tournées",
+          "Paiement dématérialisé pour les transports urbains"
+        ]
+      },
+      "en": {
+        "title": "Smart Mobility",
+        "subtitle": "Urban Logistics, Telematics & Connected Fleets",
+        "description": "Streamline the movement of people and goods: ride-sharing applications, real-time fleet tracking, and last-mile delivery route optimization.",
+        "tag": "Mobility & Logistics",
+        "features": [
+          "Real-time GPS tracking and vehicle telematics",
+          "Smart routing and dispatch optimization algorithms",
+          "Digital ticketing and cashless payments for transport"
+        ]
+      }
+    }
+  ]
+}
