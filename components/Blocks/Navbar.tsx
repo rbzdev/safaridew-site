@@ -135,7 +135,7 @@ export function NavBar() {
                             href={item.href}
                             variants={itemVariants}
                             onClick={(e) => e.stopPropagation()}
-                            className="text-xs sm:text-sm font-medium text-muted-foreground hover:text-foreground transition-colors px-2 py-1"
+                            className="text-sm font-  hover:text-foreground transition-colors px-2 py-1"
                         >
                             {item.name}
                         </motion.a>

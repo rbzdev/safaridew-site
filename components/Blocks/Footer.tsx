@@ -6,6 +6,7 @@ import Link from "next/link";
 import { Icon } from "@iconify/react";
 import { useLanguage } from "@/context/language-context";
 import { cn } from "@/lib/utils";
+import { Button } from "../ui/button";
 
 export interface FooterProps {
   className?: string;
@@ -68,52 +69,69 @@ export function Footer({ className }: FooterProps) {
           {/* COLONNE 1 : MARQUE & RÉSEAUX (LINKEDIN & FACEBOOK SEULEMENT) */}
           <div className="md:col-span-5 flex flex-col justify-between space-y-5">
             <div>
-              <Link href="/" className="inline-flex items-center gap-3 group/brand">
-                <div className="relative w-9 h-9 rounded-xl overflow-hidden bg-background border border-border shadow-xs p-1 flex items-center justify-center transition-transform group-hover/brand:scale-105">
-                  <Image
-                    src="/assets/logos/icon.svg"
-                    alt="Safaridew Logo"
-                    width={36}
-                    height={36}
-                    className="w-full h-full object-contain"
-                  />
-                </div>
-                <span className="text-xl font-black tracking-tight text-foreground">
-                  Safaridew
-                </span>
-              </Link>
 
-              <p className="mt-3 text-sm text-muted-foreground leading-relaxed max-w-sm font-light">
+              <div className="relative h-20 w-46 rounded-xl overflow-hidden shadow-xs p-1 flex items-center justify-center">
+                <Image
+                  src="/assets/logos/logo_large_default.svg"
+                  alt="Safaridew Logo"
+                  width={200}
+                  height={150}
+                  className="w-full h-full object-cover hidden dark:block"
+                />
+
+                <Image
+                  src="/assets/logos/logo_large_black.svg"
+                  alt="Safaridew Logo"
+                  width={200}
+                  height={150}
+                  className="w-full h-full object-cover dark:hidden"
+                />
+              </div>
+
+
+
+              {/* <p className="mt-3 text-sm text-muted-foreground leading-relaxed max-w-sm font-light">
                 {t.tagline}
-              </p>
+              </p> */}
             </div>
 
             {/* Réseaux sociaux : Uniquement LinkedIn & Facebook */}
             <div className="flex items-center gap-2 pt-1">
-              <a
+              <Link
                 href="https://linkedin.com/company/safaridew"
                 target="_blank"
                 rel="noopener noreferrer"
                 title="LinkedIn"
-                className="w-8 h-8 rounded-full border border-border/80 bg-background/50 hover:bg-muted flex items-center justify-center text-muted-foreground hover:text-foreground hover:border-primary/50 transition-all shadow-xs"
+                className="w-16 h-16 border border-border/80 bg-background/50 hover:bg-muted flex items-center justify-center text-muted-foreground hover:text-foreground hover:border-primary/50 transition-all shadow-xs"
               >
-                <Icon icon="simple-icons:linkedin" className="w-3.5 h-3.5" />
-              </a>
-              <a
-                href="https://facebook.com/safaridew"
+                <Icon icon="simple-icons:linkedin" className="size-8" />
+              </Link>
+              <Link
+                href="https://facebook.com/share/1A2skUuKke/?mibexid=wwXlfr"
                 target="_blank"
                 rel="noopener noreferrer"
                 title="Facebook"
-                className="w-8 h-8 rounded-full border border-border/80 bg-background/50 hover:bg-muted flex items-center justify-center text-muted-foreground hover:text-foreground hover:border-primary/50 transition-all shadow-xs"
+                className="w-16 h-16 border border-border/80 bg-background/50 hover:bg-muted flex items-center justify-center text-muted-foreground hover:text-foreground hover:border-primary/50 transition-all shadow-xs"
               >
-                <Icon icon="simple-icons:facebook" className="w-3.5 h-3.5" />
-              </a>
+                <Icon icon="simple-icons:facebook" className="size-8" />
+              </Link>
+
+              <Link
+                href="https://instagram.com/safaridew_"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Instagram"
+                aria-disabled
+                className="w-16 h-16 border border-border/80 bg-background/50 hover:bg-muted flex items-center justify-center text-muted-foreground hover:text-foreground hover:border-primary/50 transition-all shadow-xs"
+              >
+                <Icon icon="lets-icons:insta-fill" className="size-10" />
+              </Link>
             </div>
           </div>
 
           {/* COLONNE 2 : NAVIGATION (TEAM, PROJETS, CARRIÈRE SEULEMENT) */}
           <div className="md:col-span-3 space-y-4">
-            <h3 className="text-xs font-mono font-bold uppercase tracking-widest text-primary">
+            <h3 className="text-sm font-light uppercase">
               {t.navTitle}
             </h3>
             <ul className="space-y-2.5">
@@ -121,7 +139,7 @@ export function Footer({ className }: FooterProps) {
                 <li key={idx}>
                   <Link
                     href={link.href}
-                    className="text-sm text-muted-foreground hover:text-foreground transition-colors inline-block"
+                    className="text-sm text-muted-foreground hover:text-foreground transition-colors inline-block hover:underline"
                   >
                     {link.name}
                   </Link>
@@ -132,7 +150,7 @@ export function Footer({ className }: FooterProps) {
 
           {/* COLONNE 3 : NOUS TROUVER (ADRESSE SIMPLE GMAPS, EMAIL & BOOK A CALL CAL.COM) */}
           <div className="md:col-span-4 space-y-4">
-            <h3 className="text-xs font-mono font-bold uppercase tracking-widest text-primary">
+            <h3 className="text-sm font-light uppercase ">
               {t.contactTitle}
             </h3>
 
@@ -142,14 +160,14 @@ export function Footer({ className }: FooterProps) {
                 href={googleMapsUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group/addr inline-flex items-start gap-2.5 text-muted-foreground hover:text-foreground transition-colors leading-relaxed"
+                className="group/addr inline-flex items-start gap-2.5 text-muted-foreground hover:text-foreground transition-colors leading-relaxed "
                 title="Google Maps"
               >
                 <Icon
                   icon="solar:map-point-linear"
                   className="w-4 h-4 text-primary shrink-0 mt-0.5 group-hover/addr:translate-y-[-1px] transition-transform"
                 />
-                <span className="hover:underline">N° 17, Avenue Kilela Balanda - Lubumbashi</span>
+                <span className="hover:underline text-">N° 17, Avenue Kilela Balanda - Lubumbashi</span>
               </Link>
 
               {/* Adresse email directe */}
@@ -169,11 +187,13 @@ export function Footer({ className }: FooterProps) {
                   href={calComUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-xs font-bold bg-primary text-primary-foreground hover:bg-primary/90 transition-all shadow-xs"
+                  className="group"
                 >
-                  <Icon icon="solar:calendar-linear" className="w-3.5 h-3.5" />
-                  <span>{t.bookACall}</span>
-                  <Icon icon="solar:arrow-right-up-linear" className="w-3 h-3 ml-0.5" />
+                  <Button className="flex items-center">
+                    <Icon icon="solar:calendar-linear" className="size-4" />
+                    <span className="font-light text-sm">{t.bookACall}</span>
+                    <Icon icon="bitcoin-icons:arrow-right-outline" className="size-5 ml-0.5 -rotate-45  group-hover:translate-x-1 transition-transform" />
+                  </Button>
                 </a>
               </div>
             </div>
@@ -186,15 +206,14 @@ export function Footer({ className }: FooterProps) {
             © {currentYear} Safaridew SARL. {t.copyright}
           </span>
 
-          <button
-            type="button"
+          <Button
             onClick={scrollToTop}
             title={t.backToTop}
-            className="inline-flex items-center gap-1.5 hover:text-foreground transition-colors p-1 rounded-md hover:bg-muted"
+            variant={"outline"}
           >
             <span>{t.backToTop}</span>
-            <Icon icon="solar:arrow-up-linear" className="w-3.5 h-3.5" />
-          </button>
+            <Icon icon="flowbite:angle-up-outline" className="w-3.5 h-3.5" />
+          </Button>
         </div>
       </div>
     </footer>
