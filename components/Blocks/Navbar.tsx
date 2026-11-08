@@ -119,8 +119,8 @@ export function NavBar() {
                     variants={logoVariants}
                     className="flex-shrink-0 flex items-center font-semibold pl-2 md:pl-4 pr-2 mr-2 md:mr-16"
                 >
-                    <Image src="assets/logos/icon_white.svg" alt="Logo" width={100} height={100} className="h-6 w-6 hidden dark:block" />
-                    <Image src="assets/logos/icon_gray.svg" alt="Logo" width={100} height={100} className="h-6 w-6 dark:hidden" />
+                    <Image src="assets/logos/icon_white.svg" alt="Logo" width={400} height={400} className="h-6 w-6 hidden dark:block" />
+                    <Image src="assets/logos/icon_gray.svg" alt="Logo" width={400} height={400} className="h-6 w-6 dark:hidden" />
                 </motion.div>
 
                 <motion.div

@@ -70,7 +70,7 @@ export function Footer({ className }: FooterProps) {
           <div className="md:col-span-5 flex flex-col justify-between space-y-5">
             <div>
 
-              <div className="relative h-20 w-46 rounded-xl overflow-hidden shadow-xs p-1 flex items-center justify-center">
+              <div className="relative h-20 w-46 overflow-hidden flex items-center justify-center">
                 <Image
                   src="/assets/logos/logo_large_default.svg"
                   alt="Safaridew Logo"
@@ -203,7 +203,7 @@ export function Footer({ className }: FooterProps) {
         {/* BAS DE PAGE MINIMALISTE (COPYRIGHT & RETOUR HAUT, AUCUN LIEN LÉGAL) */}
         <div className="pt-6 flex items-center justify-between text-xs text-muted-foreground font-light">
           <span>
-            © {currentYear} Safaridew SARL. {t.copyright}
+            © {currentYear} Safaridew SARLU. {t.copyright}
           </span>
 
           <Button
