@@ -73,7 +73,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/assets/logos/logo_large_default.svg",
+        url: "https://www.safaridew.com/assets/logos/logo_large_black.svg",
         width: 1200,
         height: 630,
         alt: "Safaridew - Startup Technologique & Agence Numérique à Lubumbashi",
@@ -86,7 +86,7 @@ export const metadata: Metadata = {
     description:
       "Startup technologique et agence de services numériques basée à Lubumbashi, en République démocratique du Congo.",
     creator: "@safaridew",
-    images: ["/assets/logos/logo_large_default.svg"],
+    images: ["https://www.safaridew.com/assets/logos/logo_large_black.svg"],
   },
   robots: {
     index: true,
@@ -127,8 +127,8 @@ const jsonLd = {
       name: "Safaridew",
       legalName: "Safaridew",
       url: "https://safaridew.com",
-      logo: "https://safaridew.com/assets/logos/icon.svg",
-      image: "https://safaridew.com/assets/logos/logo_large_default.svg",
+      logo: "https://www.safaridew.com/favicon.ico",
+      image: "https://www.safaridew.com/assets/logos/logo_large_black.svg",
       description:
         "Safaridew est une startup technologique et une agence de services numériques basée à Lubumbashi, en République démocratique du Congo.",
       email: "hello@safaridew.com",
