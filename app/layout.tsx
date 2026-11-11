@@ -50,6 +50,25 @@ export const metadata: Metadata = {
   referrer: "origin-when-cross-origin",
   creator: "Safaridew",
   publisher: "Safaridew",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  icons: {
+    icon: [
+      { url: "/favicon.ico" },
+      { url: "/assets/logos/icon.svg", type: "image/svg+xml" },
+    ],
+    shortcut: ["/favicon.ico"],
+    apple: [{ url: "/assets/logos/icon.svg" }],
+  },
   formatDetection: {
     email: false,
     address: false,
@@ -73,9 +92,11 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://www.safaridew.com/assets/logos/logo_large_black.svg",
+        url: "https://safaridew.com/og-image.png",
+        secureUrl: "https://safaridew.com/og-image.png",
         width: 1200,
         height: 630,
+        type: "image/png",
         alt: "Safaridew - Startup Technologique & Agence Numérique à Lubumbashi",
       },
     ],
@@ -86,27 +107,9 @@ export const metadata: Metadata = {
     description:
       "Startup technologique et agence de services numériques basée à Lubumbashi, en République démocratique du Congo.",
     creator: "@safaridew",
-    images: ["https://www.safaridew.com/assets/logos/logo_large_black.svg"],
+    images: ["https://safaridew.com/og-image.png"],
   },
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-      "max-video-preview": -1,
-      "max-image-preview": "large",
-      "max-snippet": -1,
-    },
-  },
-  icons: {
-    icon: [
-      { url: "/favicon.ico" },
-      { url: "/assets/logos/icon.svg", type: "image/svg+xml" },
-    ],
-    shortcut: ["/favicon.ico"],
-    apple: [{ url: "/assets/logos/icon.svg" }],
-  },
+
 };
 
 export const viewport: Viewport = {
@@ -127,8 +130,8 @@ const jsonLd = {
       name: "Safaridew",
       legalName: "Safaridew",
       url: "https://safaridew.com",
-      logo: "https://www.safaridew.com/favicon.ico",
-      image: "https://www.safaridew.com/assets/logos/logo_large_black.svg",
+      logo: "https://safaridew.com/assets/logos/icon.png",
+      image: "https://safaridew.com/og-image.png",
       description:
         "Safaridew est une startup technologique et une agence de services numériques basée à Lubumbashi, en République démocratique du Congo.",
       email: "hello@safaridew.com",
@@ -244,6 +247,13 @@ export default function RootLayout({
       )}
     >
       <head>
+        <meta property="og:image" content="https://safaridew.com/og-image.png" />
+        <meta property="og:image:secure_url" content="https://safaridew.com/og-image.png" />
+        <meta property="og:image:type" content="image/png" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:image:alt" content="Safaridew - Startup Technologique & Agence Numérique à Lubumbashi" />
+        <meta name="twitter:image" content="https://safaridew.com/og-image.png" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
