@@ -23,7 +23,7 @@ const bricolage = Bricolage_Grotesque({
 export const metadata: Metadata = {
   metadataBase: new URL("https://safaridew.com"),
   title: {
-    default: "Safaridew | Startup Technologique & Agence Numérique à Lubumbashi (RDC)",
+    default: "Safaridew | Startup Technologique & Agence Numérique à Lubumbashi",
     template: "%s | Safaridew",
   },
   description:
@@ -82,7 +82,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Safaridew | Startup Technologique & Agence Numérique (RDC)",
+    title: "Safaridew | Startup Technologique & Agence Numérique",
     description:
       "Safaridew est une startup technologique et une agence de services numériques basée à Lubumbashi, en République démocratique du Congo.",
     url: "https://safaridew.com",
@@ -103,7 +103,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Safaridew | Startup Technologique & Agence Numérique (RDC)",
+    title: "Safaridew | Startup Technologique & Agence Numérique",
     description:
       "Startup technologique et agence de services numériques basée à Lubumbashi, en République démocratique du Congo.",
     creator: "@safaridew",

@@ -2,6 +2,7 @@
 
 import * as React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { motion, useScroll, useMotionValueEvent, type Variants } from "framer-motion";
 import { Menu } from "lucide-react";
 import { cn } from "@/lib/utils";
@@ -71,9 +72,9 @@ export function NavBar() {
     const { t } = useLanguage();
 
     const navItems = [
-        { name: t("nav.services"), href: "#services-section" },
+        { name: t("nav.services"), href: "/#services-section" },
         { name: t("nav.blog"), href: "/blog" },
-        { name: t("nav.contact"), href: "#contact" },
+        { name: t("nav.contact"), href: "/contact" },
     ];
 
     const { scrollY } = useScroll();
@@ -119,8 +120,10 @@ export function NavBar() {
                     variants={logoVariants}
                     className="flex-shrink-0 flex items-center font-semibold pl-2 md:pl-4 pr-2 mr-2 md:mr-16"
                 >
-                    <Image src="assets/logos/icon_white.svg" alt="Logo" width={400} height={400} className="h-6 w-6 hidden dark:block" />
-                    <Image src="assets/logos/icon_gray.svg" alt="Logo" width={400} height={400} className="h-6 w-6 dark:hidden" />
+                    <Link href="/" className="inline-flex items-center">
+                        <Image src="/assets/logos/icon_white.svg" alt="Logo" width={400} height={400} className="h-6 w-6 hidden dark:block" />
+                        <Image src="/assets/logos/icon_gray.svg" alt="Logo" width={400} height={400} className="h-6 w-6 dark:hidden" />
+                    </Link>
                 </motion.div>
 
                 <motion.div
